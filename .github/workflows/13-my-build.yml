@@ -1,4 +1,4 @@
-name: '13 my build, corne with nice nano v2'
+name: '13 my build, corne with nice nano v2 mouse'
 on: workflow_dispatch
 jobs:
   build:
@@ -7,3 +7,4 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["corne_left","corne_right"]'
+      branches: '["petejohanson/zmk/feat/pointers-with-input-processors","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-with-input-processors"]'
