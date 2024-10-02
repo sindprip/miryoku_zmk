@@ -1,0 +1,11 @@
+name: '13 my build, corne with nice nano v2 mouse'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["corne_left","c'
+      branches: '["petejohanson/zmk/feat/pointers-with-input-processors","zmkfirmware/zmk/main petejohanson/zmk/feat/pointers-with-input-processors"]'
+
