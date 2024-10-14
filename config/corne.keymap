@@ -4,3 +4,13 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/42/corne.h"
 #include "../miryoku/miryoku.dtsi"
+
+/ {
+    chosen {
+      zmk,battery = &vbatt;
+    };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+    };
+}
