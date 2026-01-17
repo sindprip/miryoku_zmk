@@ -6,4 +6,4 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano"]'
-      shield: '["corne_left","corne_right"]'
+      shield: '["settings_reset","corne_left","corne_right"]'
